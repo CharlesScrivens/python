@@ -39,3 +39,8 @@ print(arr[0:4])
 # unpacking is assigning values from array to variable, but need even amnt
 a,b,c = [1,2,3]
 print(f'{a} {b} {c}')
+print(a, b, c)
+
+
+# practice with dicts and hashsets
+sentence = "This is a sentence."
