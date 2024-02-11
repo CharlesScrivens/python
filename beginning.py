@@ -50,6 +50,6 @@ for letter in sentence:
         newSentence = newSentence + "%20"
     else:
         newSentence = newSentence + letter
-
+print(sentence)
 print(newSentence)
 
