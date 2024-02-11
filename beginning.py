@@ -44,3 +44,12 @@ print(a, b, c)
 
 # practice with dicts and hashsets
 sentence = "This is a sentence."
+newSentence = ""
+for letter in sentence:
+    if letter == " ":
+        newSentence = newSentence + "%20"
+    else:
+        newSentence = newSentence + letter
+
+print(newSentence)
+
