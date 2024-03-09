@@ -22,3 +22,12 @@ def calculateFine(daysLate):
 days = int(input('Enter the num days late: '))
 fine = calculateFine(days)
 print('You must pay a fine of ' + str(fine) + ' dollars')
+
+def printFirstName(names):
+    for name in names:
+        print(name)
+
+gods = ['Zeus','Poseidon','Anubis']
+printFirstName(gods)
+
+
